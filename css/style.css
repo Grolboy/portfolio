@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+    /*body stuff*/
+
+    body {
+        background-repeat: no-repeat;
+        background: fixed;
+        background-size: 100% 100%;
+        background-image: url(../img/achtergrond.jpg);
+        overflow-x: hidden;
+    }
+
+    /*navigatie bar*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    background-color: #464646;
+    height: 1px;
+    border: none;
+}
+
+#navbar {
+    background-color: #212121;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#nav-menu {
+    background-color: #212121;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0 ;
+    left: -100%;
+    transition: 850ms;
+}
+
+#nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    height: 50px;
+    padding: 1rem;
+}
+
+  .nav-text a {
+      text-decoration: none;
+      color: #F5F5F5;
+      font-size: 1.2rem;
+      margin-left: 1rem;
+  }
+
+  .nav-text:hover {
+      background-color: rgba(144, 144, 144, 0.219);
+      cursor: pointer;
+  }
+
+  .nav-menu-items {
+      width: 100%;
+  }
+
+  .nav-icon {
+      padding-right: 1rem;
+      color: #909090;
+  }
+
+  #home-logo {
+      color: lime;
+      padding-right: 0.2rem;
+  }
+  
+  #navbar-toggle {
+      background-color: #212121;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+  }
+
+#navbar-toggle h1 {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar-toggle a {
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: #909090;
+}
+
+/*multi location use code*/
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Flex_1 {flex: 50%;
+        max-width: 50%;
+        padding: 0 4px;}
+
+@media (max-width: 1000px)
+    {
+        .Flex_1 {flex: 100%;
+                max-width: 100%;
+                }
+    }
+
+.wrap_2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Flex_2 {flex: 30%;
+        max-width: 30%;
+        padding: 0 4px;}
+
+@media (max-width: 900px)
+    {
+        .Flex_2 {flex: 60%;
+                max-width: 60%;
+                }
+    }
+
+@media (max-width:700px)
+    {
+        .Flex_2 {flex: 100%;
+                max-width: 100%;
+                }
+    }
+
+.title {
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 260px;
+    color: #909090;
+    font-size: 30px;
+}
+
+.title_2 {
+    text-align: center;
+    position: fixed;
+    top: 55px;
+    left: 260px;
+    color: #909090;
+    font-size: 40px;
+}
+
+.box_1 {
+    background-color:#909090;
+    width: 70%;
+    height: 310px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 8px black;
+    position: relative;
+    top: 100px;
+    left: 260px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box_2 {
+    background-color: #909090;
+    width: 500px;
+    height: 250px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 8px black;
+    position: relative;
+    top: 100px;
+    left: 260px;
+    padding: 0px;
+    margin: 50px;
+}
+
+.box_3 {
+    background-color: #909090;
+    width: 250px;
+    height: 250px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 8px black;
+    position: relative;
+    top: 100px;
+    left: 260px;
+    padding: 0px;
+    margin: 50px;
+}
+
+/* algemeen */
+
+
+
+.text_1 {
+    text-align: left;
+    font-size: 17px;
+}
+.text_1, p {
+    white-space: pre-line;
+}
+
+.pic_1 {
+    display: inline-flex;
+    position: relative;
+    width: 15%;
+    height: auto;
+    right: 15px;
+    bottom: 50px;
+}
+
+/*School*/
+
+
+
+/*Werk*/
+
+
+
+/*Hobby's*/
+
+.pic_2 {
+    display: inline-flex;
+    position: relative;
+    width: 35%;
+    height: auto;
+    right: 15px;
+    bottom: 5px;
+}
+
+.pic_3 {
+    display: inline-flex;
+    position: relative;
+    width: 25%;
+    height: auto;
+    right: 15px;
+    bottom: 5px;
+}
+
+.pic_4 {
+    display: inline-flex;
+    position: relative;
+    width: 20%;
+    height: auto;
+    right: 15px;
+    bottom: 0px;
+}
+
+/*Socials*/
+
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px;
+    will-change: transform;
+    margin-left: 50px;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .text_2 {
+    text-align: center;
+    font-size: 27px;
+}
+.text_2, p {
+    white-space: pre-line;
+}
