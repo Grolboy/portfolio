@@ -1,0 +1,142 @@
+/*NavBar basic*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: limegreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*project 1 code that is required todo it*/
+
+.box_big {
+background-color: red;
+width: 300px;
+height: 300px;
+}
+
+.box_normal {
+background-color: yellow;
+width: 200px;
+height: 200px;
+}
+
+.box_little {
+background-color: green;
+width: 100px;
+height: 100px;
+}
+
+/*project 2 code that is required todo it*/
+
+.container_1 {
+    position: relative;
+    color: red;
+}
+
+.pic_1 {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+}
+
+.upper_left {
+position: absolute;
+top: 25px;
+left: 25px;
+}
+
+/*project 3 code that is required todo it*/
+
+
+
+/*project 4 code that is required todo it*/
+
+.scroll_box {
+    margin-top: 15px;
+    border: 1px solid;
+    height: 300px;
+    width: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.tekst_1 {
+    text-align: left;
+}
+
+.tekst_1, p {
+    white-space: pre-line;
+}
+
+/*project 5 code that is required todo it*/
+
+.video_1 {
+    width:  640px;
+    height: 480px;
+}
+
+/*project 6 code that is required todo it*/
+
+* {box-sizing: border-box;} 
+      
+#rij1, #rij3 {background-color: #666;
+              padding: 10px;
+              text-align: center;            
+              color: white;}
+
+#rij2 {display:flex;}              
+
+#kolom1 {flex: 1; 
+         background: #ccc;
+         padding: 20px;}
+
+#kolom2 {flex: 3;
+         background-color: #f1f1f1;
+         padding: 20px;}  
+
+ /*project 7 code that is required todo it*/
+      
+ * {box-sizing: border-box;} 
+      
+ .rij {
+   display: flex;
+   flex-wrap: wrap;
+ } 
+
+ .kolom > img {width: 100%;}
+
+ .kolom {flex: 50%;
+   max-width: 50%;
+ }
+ .box_style {
+    border:solid 3px darkred;
+    margin:10px;
+    padding-left:10px;
+ }
+ .sizing_svg{
+    width: 246px;
+    height: 177px;
+ }
+
+ @media (max-width: 800px) {
+   .kolom {flex: 100%;
+   max-width: 100%;
+ }
+ }

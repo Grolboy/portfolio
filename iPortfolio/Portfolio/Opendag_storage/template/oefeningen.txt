@@ -1,0 +1,50 @@
+Project 1
+Je hebt hier 3 div's met een lege class, en tussen de <p> ... </p> moet ook iets staan.
+
+Je hebt de keuze tussen:
+
+    class="box_little" <p>little</p>
+    class="box_normal" <p>normal</p>
+    class="box_big" <p>big</p>
+
+Project 2
+Je hebt hier te maken met een afbeelding en een tekst.
+
+Bij de src moet je de locatie invullen van image_1.jpg, die te vinden is op ../img/image_1.jpg.
+In de class van je img moet je "pic_1" invullen voor de correcte styling van de CSS, anders is je afbeelding te groot.
+In de div waar "test" in staat, moet je in de class "upper_left" invullen. Dit is ook een styling om de tekst "test" correct te plaatsen.
+
+Project 3
+Voor dit project open je ook project_3.txt voor alle tekst die je nodig hebt.
+
+Je hebt hier te maken met een afbeelding en tekst formatting.
+
+Bij de src moet je de locatie invullen van image_2.jpg, die te vinden is op ../img/image_2.jpg.
+
+Bij align moet je "right" invullen. Op die manier zal de afbeelding aan de rechterkant van het beeldscherm staan en zal de tekst eromheen gaan.
+
+Project 4
+Voor dit project ga je naar css/stylesheet.css en scroll je naar regel 69 of totdat je dit leest: "project 4 code that is required todo it".
+
+Hier zie je hoe je de div voor de scroll box moet noemen en welke class je aan je tekst moet geven. Geef die classes aan die tekst zodat je tekst keurig in een scrollbare box wordt gezet.
+
+Project 5
+Met dit project zal je een video in je HTML-website zetten.
+
+    De src is ../img/vid/vid.mp4.
+    Het type is video/mp4.
+    De class is "video_1".
+
+Je wilt ook graag dat de video autoplay, muted en loop doet. Dit doe je door de volgende attributen toe te voegen: autoplay muted loop.
+
+Project 6
+Je hebt hier 3 rijen.
+
+En in rij 2 heb je 2 kolommen. Check de stylesheet.css voor wat je moet invullen bij de id="".
+
+Project 7
+Bij deze opdracht hebben we 4 boxes.
+
+Hier willen we SVG-afbeeldingen gebruiken die je kunt vinden op ../img/svg/.
+
+Je moet met wat er in de h1 staat matchen met de afbeelding en je moet een class toevoegen om het correct te stylen. Check de stylesheet.css voor die informatie.
