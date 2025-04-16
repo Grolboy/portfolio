@@ -1,0 +1,9 @@
+001.Post /register
+002.Post /login
+003.Get /projects
+004.Post /projects
+005.Get /projects/{slug}
+006.Put /projects/{project_id}
+007.Delete /projects/{project_id}
+
+slug means url location like website.com/slug
