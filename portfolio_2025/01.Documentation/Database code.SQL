@@ -36,7 +36,3 @@ CREATE TABLE IF NOT EXISTS project_links (
     url VARCHAR(500) NOT NULL,
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
-
--- Optional: Add test user (replace with hashed password later)
--- INSERT INTO users (username, password_hash)
--- VALUES ('admin', 'REPLACE_WITH_HASHED_PASSWORD');
