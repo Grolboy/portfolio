@@ -1,0 +1,11 @@
+open a terminal iside of the API folder by running this command
+cd D:\Github\portfolio\portfolio_2025\API
+
+once inside of the API folder run the following command to set up the Python Venv virtual envoirment with correctly set up needed information
+python set_up/setup_env.py
+
+once that is done you can run the following command to be inside of the virtual envoirment
+venv\Scripts\activate 
+
+inside of that you can run the following code to start up the API
+uvicorn main:app --reload
