@@ -1,0 +1,1 @@
+        <p>&copy; <?php echo date("Y"); ?> My Portfolio.</br> All Rights Reserved.</p>

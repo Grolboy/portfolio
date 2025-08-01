@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@400;700&display=swap');
+.typed-container {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #00ffea;
+    font-family: 'Bitcount Prop Single', sans-serif;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: inset 0 0 20px #00ffe7aa, 0 0 15px #00ffe7cc;
+    border: 1px solid #00ffe7cc;
+    
+    /* Add these: */
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+  
+
+  #rotating-text {
+    animation: blink-caret 0.75s step-end infinite;
+    min-width: 250px; /* prevent layout shift */
+  }
+
+  @keyframes blink-caret {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: var(--secondary-color); }
+  }
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.8rem !important;
+    }
+    h2 {
+      font-size: 1.3rem !important;
+      padding: 0 1rem;
+      text-align: center;
+      justify-content: center;
+    }
+    #emoji {
+      font-size: 1.5rem !important;
+    }
+    #rotating-text {
+      min-width: 180px !important;
+    }
+  }
+
+  @keyframes subtle-flicker {
+    0%, 100% {
+      opacity: 1;
+      box-shadow: inset 0 0 20px #00ffe7aa, 0 0 15px #00ffe7cc;
+      border-color: #00ffe7cc;
+    }
+    50% {
+      opacity: 0.85;
+      box-shadow: inset 0 0 10px #00b3a5aa, 0 0 8px #00b3a5cc;
+      border-color: #00b3a5cc;
+    }
+  }
+  
+  .typed-container {
+    animation: subtle-flicker 10s infinite ease-in-out alternate;
+  }
+  

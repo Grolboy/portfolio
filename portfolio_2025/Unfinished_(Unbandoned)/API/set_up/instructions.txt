@@ -1,4 +1,4 @@
-open a terminal iside of the API folder by running this command
+open a terminal iside of the API folder by running this command (do modify url so it actually is correct because it isnt installed in that location if it is a different machine)
 cd D:\Github\portfolio\portfolio_2025\API
 
 once inside of the API folder run the following command to set up the Python Venv virtual envoirment with correctly set up needed information
